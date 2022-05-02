@@ -1,0 +1,136 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif
+}
+
+body {
+    background: #e2f0ef;
+}
+
+.header-image {
+    background-image: url("https://cdn.makitatools.com/apps/wms/slider/2022-Makita-Spring-Rule-the-Outdoors-Lawn-Mower-Homepage-Hero.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.caption {
+    display: block;
+    font-size: 40px;
+    line-height: 30px;
+    padding: 10px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 0%;
+    width: 70%;
+    background-color: white;
+    color: darkslategray;
+    text-align: center;
+    opacity: 0.65;
+
+}
+
+.intro {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(37, 54, 50, 0.5);
+    border-bottom-style: dotted;
+}
+
+h2 {
+    text-align: center;
+}
+
+.a::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.image {
+    float: left;
+    margin: 20px 20px 10px 20px;
+}
+
+.image-text {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 150px;
+    margin: 50px 20px 20px 20px;
+}
+
+.video {
+    margin: auto;
+    width: 40%;
+    padding: 30px;
+}
+
+.list {
+    margin: 15px 15px 15px 15px;
+    font-size: 18px;
+    color: darkslategray;
+}
+
+.form {
+    text-align: center;
+    margin: 0 300px 0 300px;
+}
+
+.input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input[type=button] {
+    color: rgb(50, 87, 79);
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .input[type=button]:hover {
+    background-color: #3f6141;
+  }
+
+.heading4 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2%;
+}
+
+#variants {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #variants td, #variants th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #variants tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #variants tr:hover {background-color: #ddd;}
+  
+  #variants th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #356956;
+    color: white;
+  }
+
+  .footer {
+    border-top: 1px solid rgba(37, 54, 50, 0.5);
+    border-top-style: dotted;
+  }
